@@ -116,3 +116,12 @@ Before we get started, keep in mind:
 [debug] [2022-10-04T02:03:31.785Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
 [debug] [2022-10-04T02:03:31.815Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
 [debug] [2022-10-04T02:03:31.815Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-10-04T02:04:52.598Z] >>> [apiv2][query] GET https://api.github.com/repos/ BrunoCostaPrado/apro/actions/secrets/public-key type=owner
+[debug] [2022-10-04T02:04:52.799Z] <<< [apiv2][status] GET https://api.github.com/repos/ BrunoCostaPrado/apro/actions/secrets/public-key 404
+[debug] [2022-10-04T02:04:52.799Z] <<< [apiv2][body] GET https://api.github.com/repos/ BrunoCostaPrado/apro/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2022-10-04T02:04:52.831Z] >>> [apiv2][query] GET https://api.github.com/repos/ BrunoCostaPrado/apro/actions/secrets/public-key type=owner
+[debug] [2022-10-04T02:04:52.957Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-10-04T02:04:53.027Z] <<< [apiv2][status] GET https://api.github.com/repos/ BrunoCostaPrado/apro/actions/secrets/public-key 404
+[debug] [2022-10-04T02:04:53.027Z] <<< [apiv2][body] GET https://api.github.com/repos/ BrunoCostaPrado/apro/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2022-10-04T02:04:53.141Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-10-04T02:04:53.141Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
